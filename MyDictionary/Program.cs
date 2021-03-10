@@ -14,7 +14,7 @@ namespace MyDictionary
             string s;
             for (int j = 0; j < i; j++)
             {
-                Console.WriteLine($"Name {0} --> ", j);
+                Console.WriteLine($"Name --> ", j);
                 s = Console.ReadLine();
                 dictionary.Add(j, s);
                 Console.Clear();
